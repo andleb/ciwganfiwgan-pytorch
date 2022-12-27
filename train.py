@@ -253,6 +253,7 @@ if __name__ == "__main__":
 
             if i % WAVEGAN_DISC_NUPDATES == 0:
                 optimizer_G.zero_grad()
+
                 if train_Q:
                     optimizer_Q.zero_grad()
 
